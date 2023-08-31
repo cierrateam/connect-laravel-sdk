@@ -1,20 +1,19 @@
 {
-    "name": "cierrateam/connect-laravel-sdk",
-    "description": "Cierra Connect Laravel SDK",
-    "autoload": {
-        "psr-4": {
-            "Cierra\\Connect\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Misha",
-            "email": "mikhail@cierra.de"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "cierrateam/connect-php-sdk": "dev-main",
-        "php": "^8.1"
+  "name": "cierrateam/connect-laravel-sdk",
+  "description": "Cierra Connect Laravel SDK",
+  "autoload": {
+    "psr-4": {
+      "Cierra\\Connect\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Misha",
+      "email": "mikhail@cierra.de"
+    }
+  ],
+  "require": {
+    "cierrateam/connect-php-sdk": "^1",
+    "php": "^8.1"
+  }
 }
